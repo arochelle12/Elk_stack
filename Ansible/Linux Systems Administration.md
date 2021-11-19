@@ -3,11 +3,9 @@
 ## Ensure/Double Check Permissions on Sensitive Files
 Permissions on /etc/shadow should allow only root read and write access.
 1. Command to inspect permissions: 
-    '''bash
-    ls -l /etc/shadow
-    '''
+    > ls -l /etc/shadow
 2. Command to set permissions (if needed): 
-    'sudo chmod 600 /etc/shadow'
+    > sudo chmod 600 /etc/shadow
 Permissions on /etc/gshadow should allow only root read and write access.
 1. Command to inspect permissions: 
     >> ls -l /etc/gshadow
