@@ -25,6 +25,8 @@ Permissions on /etc/passwd should allow root read and write access, and allow ev
 2. Command to set permissions (if needed): 
     > sudo chmod 644 /etc/passwd
 
+
+
 ## Create User Accounts
 Add user accounts for sam, joe, amy, sara, and admin.
 1. Command to add each user account (include all five users):
@@ -37,6 +39,8 @@ Add user accounts for sam, joe, amy, sara, and admin.
 Ensure that only the admin has general sudo access.
 1. Command to add admin to the sudo group: 
     > sudo usermod -aG sudo admin
+
+
 
 ## Create User Group and Collaborative Folder
 Add an engineers group to the system.
@@ -57,6 +61,7 @@ Create a shared folder for this group at /home/engineers.
 Change ownership on the new engineers' shared folder to the engineers group.
 1. Command to change ownership of engineer's shared folder to engineer group: 
     > sudo chown :engineers /home/engineers
+
 
 ## Lynis Auditing
 1. Command to install Lynis: 
