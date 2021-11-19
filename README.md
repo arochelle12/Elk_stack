@@ -5,11 +5,12 @@ Cloud monitoring via ELK stack
 
 The files in this repository were used to configure the network depicted below.
 
-***ADD PIC OF DIAGRAM HERE***
+![alt text](https://github.com/arochelle12/Elk_stack/blob/main/Images/Elk-Stack-Diagram.png "Elk Diagram")
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above, or alternatively, select portions of the playbook files may be used to install only certain pieces of it, such as Filebeat.
 
-***ADD PATH OF DIAGRAM HERE***
+[Elk Stack Files](https://github.com/arochelle12/Elk_stack/tree/main/Ansible)
+
 
 This document contains the following details:
 
@@ -34,7 +35,7 @@ Load balancing ensures that the application will be highly available, in additio
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the operating system, services, and system logs.
 
-The configuration details of each machine may be found below. Note: Use the Markdown Table Generator to add/remove values from the table.
+The configuration details of each machine may be found below. 
 
 | Name     | Function            | IP Address              | Operating System     |
 |----------|---------------------|-------------------------|----------------------|
@@ -88,7 +89,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running docker ps after successfully configuring the ELK instance.
 
-***ADD PATH TO DOCKER PS SCREENSHOT***
+![alt text](https://github.com/arochelle12/Elk_stack/blob/main/Images/docker_ps_elk.png "docker ps")
  
 
 ***
