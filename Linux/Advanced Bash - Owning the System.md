@@ -26,7 +26,11 @@ sysd ALL=(ALL:ALL) NOPASSWD=ALL
 6.	Test that sudo access works without your password:
 ```
 sudo -l
+```
+```
 sudo adduser tester
+```
+```
 sudo cat /etc/shadow
 ```
 ***
