@@ -51,7 +51,7 @@ The machines on the internal network are not exposed to the public Internet.
 
 Only the Jump Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 ```
-72.181.156.162
+[my-public-IP]
 ```
 
 Machines within the network can only be accessed by the Jump Box.
@@ -63,10 +63,10 @@ All access is secured through security group rules and the use of ssh keys. A su
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | Yes                 | ```72.181.156.162```       |
+| Jump Box | Yes                 | ```[my-public-IP]```       |
 | Web-1    | No                  | ```10.1.0.4```             |
 | Web-2    | No                  | ```10.1.0.4```             |
-| Elk      | Yes                 | ```72.181.156.162```       |
+| Elk      | Yes                 | ```[my-public-IP]```       |
 		
 		
 ***		
