@@ -117,6 +117,11 @@ These Beats allow us to collect the following information from each machine:
 >	Metricbeats is able to send system and service statistics, this allows us to track when our container resources are being used the most
 
 
+[Filebeat Playbook](https://github.com/arochelle12/Elk_stack/blob/main/Ansible/filebeat-playbook.yml)
+
+[Metricbeat Playbook](https://github.com/arochelle12/Elk_stack/blob/main/Ansible/metricbeat-playbook.yml)
+
+
 ***
 ## USING THE PLAYBOOKS
 In order to use the playbooks, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:
